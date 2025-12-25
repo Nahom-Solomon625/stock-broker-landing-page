@@ -652,9 +652,10 @@ a {
   z-index: 1;
 }
 
-.feature-icon::before {
-  content: attr(data-icon);
-  font-size: 1.05rem;
+.feature-icon svg {
+  width: 22px;
+  height: 22px;
+  color: rgba(255, 255, 255, 0.88);
 }
 
 .feature-card h3 {
