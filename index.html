@@ -33,6 +33,20 @@
           <a href="#faq">FAQ</a>
         </nav>
 
+        <details class="nav-mobile" aria-label="Mobile menu">
+          <summary>Menu</summary>
+          <div class="nav-mobile-panel">
+            <a href="#features">Features</a>
+            <a href="#brokers">Brokers</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
+            <div class="nav-mobile-actions">
+              <a class="btn btn-secondary full" href="#pricing">Sign in</a>
+              <a class="btn btn-primary full" href="#pricing">Open an account</a>
+            </div>
+          </div>
+        </details>
+
         <div class="header-cta">
           <a class="link subtle" href="#pricing">Sign in</a>
           <a class="btn btn-primary" href="#pricing">Open an account</a>
@@ -408,16 +422,94 @@
           </div>
         </div>
       </section>
+
+      <section class="section faq" id="faq" aria-label="Frequently asked questions">
+        <div class="container">
+          <div class="section-head">
+            <h2>FAQ</h2>
+            <p>Quick answers to the most common questions. (This is a demo landing page.)</p>
+          </div>
+
+          <div class="faq-grid">
+            <details class="faq-item" open>
+              <summary>Is AurumBroker a real broker?</summary>
+              <p>
+                No — this page is a design demo built with HTML &amp; CSS using mock content and
+                mock market data.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Do you charge commissions?</summary>
+              <p>
+                The pricing and commission claims here are purely illustrative. Replace them with
+                your real brokerage terms.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Can I trade options and crypto?</summary>
+              <p>
+                The feature set is presented as mock. You can tailor the sections to match your
+                actual product offerings.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Is my money insured?</summary>
+              <p>
+                Any mentions of insurance or compliance are placeholders. Consult legal/compliance
+                guidance for accurate disclosures.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Can you customize this for my brand?</summary>
+              <p>
+                Yes — share your brand colors, logo, and target audience and the design can be
+                adjusted (sections, tone, and layout).
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p class="fineprint">
-          © 2025 AurumBroker. Demo landing page. Not financial advice.
-        </p>
-        <p class="fineprint">
-          Built with HTML &amp; CSS. No tracking. No cookies.
-        </p>
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a class="brand" href="#" aria-label="AurumBroker home (footer)">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <span class="brand-text">AurumBroker</span>
+            </a>
+            <p class="footer-blurb">
+              A clean, professional landing page concept for a modern stock broker platform.
+            </p>
+          </div>
+
+          <div class="footer-cols" aria-label="Footer links">
+            <div class="footer-col">
+              <p class="footer-title">Product</p>
+              <a href="#features">Features</a>
+              <a href="#pricing">Pricing</a>
+              <a href="#faq">FAQ</a>
+            </div>
+            <div class="footer-col">
+              <p class="footer-title">Company</p>
+              <a href="#brokers">Brokers</a>
+              <a href="#pricing">Careers (mock)</a>
+              <a href="#faq">Security (mock)</a>
+            </div>
+            <div class="footer-col">
+              <p class="footer-title">Contact</p>
+              <a href="#">support@aurumbroker.example</a>
+              <a href="#">+1 (555) 014-2204</a>
+              <a href="#">New York • Remote</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="fineprint">© 2025 AurumBroker. Demo landing page. Not financial advice.</p>
+          <p class="fineprint">Built with HTML &amp; CSS. No tracking. No cookies.</p>
+        </div>
       </div>
     </footer>
   </body>
